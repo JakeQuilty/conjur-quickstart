@@ -45,7 +45,7 @@ services:
     depends_on: [ database ]
 
   proxy:
-    image: new-nginx:latest
+    build: ./nginx
     container_name: nginx_proxy
     ports:
       - "8443:443"
