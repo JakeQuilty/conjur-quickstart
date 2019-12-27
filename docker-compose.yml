@@ -45,8 +45,7 @@ services:
     depends_on: [ database ]
 
   proxy:
-    image: nginx:1.13.6-alpine
-    build: ./nginx/
+    image: new-nginx:latest
     container_name: nginx_proxy
     ports:
       - "8443:443"
