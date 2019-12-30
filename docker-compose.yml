@@ -26,8 +26,6 @@ services:
     privileged: true
     container_name: bot_app
     command: tail -F anything
-    environment:
-      BOT_APP_API_KEY:
     
   database:
     image: postgres:9.4
