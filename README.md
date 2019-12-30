@@ -3,7 +3,7 @@
 This Quickstart guides you through installation to fetching a secret with a demo app.
 
 
-Modified to workaround mounting issues on Ubuntu.
+Modified to workaround volume mounting issues on Ubuntu.
 
 **Extra steps:**
 
